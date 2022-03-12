@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text.Json;
 
-namespace ParcialMs.Modelo
+namespace ParcialMs.Modelos
 {
     public class Usuarios
     {

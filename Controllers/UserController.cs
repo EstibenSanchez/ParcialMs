@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using ParcialMs.Modelo;
-using ParcialMs.ServiciosUser;
+using ParcialMs.Modelos;
+using ParcialMs.Servicios;
 
 namespace ParcialMs.Controllers
 {
@@ -14,7 +14,7 @@ namespace ParcialMs.Controllers
 
 
         [HttpPost]
-        [Route("api/Usuario")]
+        [Route("insertarusuario")]
 
         public string Post(Usuarios usuarios)
         {

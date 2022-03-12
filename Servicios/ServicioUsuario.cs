@@ -1,10 +1,10 @@
 ﻿using Newtonsoft.Json;
-using ParcialMs.Modelo;
+using ParcialMs.Modelos;
 using System;
 using System.Collections.Generic;
 using System.IO;
 
-namespace ParcialMs.ServiciosUser
+namespace ParcialMs.Servicios
 {
     public class ServicioUsuario
     {
