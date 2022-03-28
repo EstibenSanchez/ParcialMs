@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using ParcialMs.Modelos;
 using ParcialMs.Servicios;
+using System.Collections.Generic;
 
 namespace ParcialMs.Controllers
 {
@@ -22,14 +23,22 @@ namespace ParcialMs.Controllers
 
         }
 
+        [HttpGet]
+        [Route("getusers")]
 
-       /* [HttpPost]
-        [Route("insertuser")]
-
-        public string Pos(Modelos2 usuarios)
+        public List<Usuarios> get()
         {
-            return servicio2.Post2(usuarios.correo, usuarios);
+            return servicio.GetUsers();
+        }
 
-        }*/
+
+        /* [HttpPost]
+         [Route("insertuser")]
+
+         public string Pos(Modelos2 usuarios)
+         {
+             return servicio2.Post2(usuarios.correo, usuarios);
+
+         }*/
     }
 }
